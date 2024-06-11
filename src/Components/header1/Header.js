@@ -61,7 +61,7 @@ const Header = () => {
                         <Navbar >
                             <div className='Brand_menu'>
                                 <Button onClick={toggleSelect} color="link" className='bar'><i class="fa-solid fa-bars-staggered"></i></Button>
-                                <NavbarBrand href="/frontend"><div className='logo'><img alt='logo' src={logo}></img></div></NavbarBrand>
+                                <NavbarBrand href="/"><div className='logo'><img alt='logo' src={logo}></img></div></NavbarBrand>
                                 <Button color="link" className='bar_search'><img alt='icon' src={search1} /></Button>
                                 <Nav className="me-auto" >
                                     <NavItem>
