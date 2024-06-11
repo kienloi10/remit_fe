@@ -1,0 +1,277 @@
+.footer {
+    
+    bottom: 0;
+    width: 100%;
+    
+}
+
+.footer .container {
+    display: flex;
+    
+    justify-content: space-between !important;
+}
+
+.footer .box_main .navbar-brand img {
+    height: auto !important;
+    margin-bottom: 18px;
+    width: 105px;
+}
+.footer .box_main p{
+    line-height: 26px;
+    font-family: var(--font-family);
+    font-weight: var(--font-regular);
+    font-size: var(--fontsize-body1);
+}
+.footer .box_main .phone_number{
+    border-bottom: 1px solid #272829;
+    width: auto;
+}
+.footer .box_main .icon{
+    width: 137px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .box_main .icon i{
+    color: #5A6D80;
+}
+.footer .box{
+    height: auto !important;
+}
+.footer .box h5{
+    margin-bottom: 22px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 21px;
+}
+.footer .box a{
+    margin-bottom: 14px;
+    text-decoration: none;
+    color: #272829;
+    font-family: var(--font-family);
+    font-weight: 400;
+}
+.footer .box_infor h5{
+    margin-bottom: 22px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 21px;
+}
+.footer .box_infor p{
+    line-height: 26px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: var(--fontsize-body1);
+    color: #5A6D80;
+}
+.footer .box_infor .input{
+    background-color: #F3F8FC;
+    padding: 4px 4px 4px 20px;
+    width: 460px;
+    border-radius: 12px;
+}
+.footer .box_infor .input .btn{
+    border-radius: 10px !important;
+    padding: 9px 18px 9px 18px;
+    font-family: var(--font-family);
+    line-height: 28px;
+    font-size: var(--fontsize-body1);
+    font-weight: 500;
+    background: #272829;
+    
+}
+.footer .box_infor .input input{
+    width: 290px;
+    margin-right: 14px;
+    margin-left: 12px;
+    background: none;
+    border: none;
+    outline: none;
+}
+::placeholder{
+    font-family: var(--font-family);
+    color: #5A6D80;
+}
+.box_infor .sub_input{
+    font-family: var(--font-family) !important;
+    font-size: 14px !important;
+    color: #5A6D80 !important;
+    font-weight: 300 !important;
+    margin-top: 8px;
+}
+
+.bottom_footer .container span{
+    font-weight: bold;
+}
+.footer .container{
+    padding: 60px 0;
+}
+.bottom_footer .container{
+    padding: 18px 0;
+    border-top: 1px solid #EDF3F9;
+    
+}
+.bottom_footer .container p{
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+.footer{
+    background: #FFFF;
+}
+.accordion{
+    display: none ;
+}
+@media only screen and (max-width: 400px) {
+    .accordion{
+        display: block ;
+        border: none !important;
+        border-radius: none !important;
+    }
+    .accordion-item{
+        border: none;
+    }
+    .accordion-button{
+        background-color: none !important;
+        box-shadow: none;
+        border-top: 1px solid #EDF3F9;
+        padding-top: 30px;
+        padding-bottom: 15px;
+        
+    }
+    .accordion-button.collapsed{
+        background-color: none !important;
+        box-shadow: none;
+        border-top: 1px solid #EDF3F9;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .accordion-button:focus{
+        box-shadow: none !important;
+    }
+    .footer .container .box,.footer .container .box_infor{
+        display: none;
+    }
+    .footer .container{
+        display: inline-block;
+        padding: 0 16px !important;
+    }
+    .footer .container{
+        padding: 60px 0;
+        padding-bottom: 0px !important;
+    }
+    .collap_cuoi{
+        border-bottom: none !important;
+    }
+    .accordion-button:not(.collapsed){
+        background-color: none !important;
+    }
+    .bottom_footer .container{
+        padding: 16px 0 !important;
+    }
+    .accordion-button{
+        padding-left: 0;
+        background-color: #FFFF !important;
+        font-family: var(--font-family);
+        font-weight: 600px;
+        font-size: 18px;
+    }
+    .collap_cuoi .accordion-button{
+        border-bottom:none;
+    }
+    .accordion-body{
+        padding: 0 !important;
+    }
+    .accordion-item{
+        border-radius: none;
+    }
+    .accordion{
+        position: none !important;
+        z-index: -1 ;
+    }
+    .box_main{
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+    .accordion-body .nav-item a{
+        text-decoration: none;
+        margin-bottom: 15px;
+        color: #272829;
+        font-family: var(--font-family);
+        font-size: var(--fontsize-body1);
+        font-weight: 300;
+    }
+    .accordion-body .input{
+        background-color: #F3F8FC;
+        padding: 4px 4px 4px 15px;
+        display: flex;
+        align-items: center;
+
+    }
+    .accordion-body .input input{
+        width: 100%;
+        border: none;
+        outline: none;
+        background: none;
+        margin-left: 15px;
+    }
+    .accordion-body  .sub_input{
+        font-size: 12px;
+        margin-top: 5px;
+        font-family: var(--font-family);
+        font-weight: 300;
+    }
+}
+.service{
+    height: 100px;
+    background-color: #EDF3F9;
+    display: flex;
+}
+.service .service_detail .box{
+    display: flex;
+    align-items: center;
+}
+.service .service_detail .box .icon_box{
+    background-color: #FFFF;
+    padding: 10px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    
+    
+    border-radius: 999px;
+}
+.service .service_detail .box .icon_box img{
+    width: 34px;
+    transform: translateY(3px);
+}
+.service_detail.container{
+    padding: 0 !important;
+}
+.service .service_detail .box .content_box h5{
+    margin-bottom: 5px;
+    font-family: var(--font-family);
+    font-size: 18px;
+}
+.service .service_detail .box .content_box p{
+    margin-bottom: 0px;
+    font-family: var(--font-family);
+    font-size: 14px;
+    color: #5A6D80;
+}
+.service .service_detail .box .content_box{
+    margin-left: 10px;
+}
+@media only screen and (max-width: 400px){
+    .service{
+        height: auto;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .service .service_detail .box{
+        margin-bottom: 30px;
+    }
+    .service_detail.container{
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+    }
+}

@@ -1,0 +1,31 @@
+.col-xl-4.col-lg-4.col-md-6.col-6 .card {
+    width: 100%!important;
+}
+.col-xl-4.col-lg-4.col-md-6.col-6{
+    
+    
+    margin-bottom:28px ;
+}
+.card-body .card-title a{
+    font-family: var(--font-family);
+    text-decoration: none;
+    color: #272829;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 400px) {
+    .card-text{
+        font-size: 14px;
+    }
+    .card-body .card-title a{
+        font-family: var(--font-family);
+        text-decoration: none;
+        color: #272829;
+        font-size: 14px;
+        width: 100%;
+    }
+    .card-body .btn{
+        padding: 10px 12px !important;
+        font-size: 14px;
+    }
+}

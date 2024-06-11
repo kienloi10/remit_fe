@@ -1,0 +1,169 @@
+main{
+    margin-top: 140px;
+}
+.Group_inputAndMap{
+    display: flex;
+}
+.map{
+    background-image: url(../../Img/map.jpg);
+    border-radius: 12px;
+    width: 800px;
+    margin-left: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 660px;
+}
+.map .adress{
+    background: #ffff;
+    position: absolute;
+    bottom: 10px;
+    width: 300px;
+    left: 10px;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+.Tilte_contact h1{
+    font-family: var(--font-family);
+}
+.Group_input .input{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    
+}
+.Group_input .input label{
+    margin-bottom: 4px;
+}
+.Group_input .input input{
+    padding: 14px;
+    height: 50px;
+    border-radius: 7px;
+    border: 1px solid #D4DBE2;
+    margin-top: 6px;
+}
+.full_nameAndPhone_number,.SubjectAndemai_ldress{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Tilte_contact{
+    margin-bottom: 40px;
+}
+.Tilte_contact h1{
+    font-family: var(--font-family);
+    font-size: 40px;
+    font-weight: 600;
+}
+.Tilte_contact p{
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 300;
+    width:640px ;
+}
+.infor_store h4{
+    font-family: var(--font-family);
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.infor_store h4 span{
+    font-weight: 300;
+}
+.note_contact{
+    margin-top: 40px;
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.Group_input label{
+    font-family: var(--font-family);
+}
+.your_Review label{
+    margin-bottom: 8px;
+}
+form button{
+    padding: 12px 24px;
+    border-radius: 10px;
+    font-family: var(--font-family);
+    font-size: 16px;
+    color: #ffff;
+    background: #2b353f;
+}
+.Group_inputAndMap{
+    margin-bottom: 80px;
+    margin-top: 40px;
+}
+.map .adress h4{
+ font-family: var(--font-family);  
+ font-size: 16px; 
+}
+.map .adress p{
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-weight: 300;
+}
+.map .adress a{
+    text-decoration: none;
+    color: #677685;
+}
+.map .adress{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+@media only screen and (max-width: 400px){
+    .Group_inputAndMap{
+        flex-direction: column;
+    }
+    .map{
+        margin: 0;
+        width: 100%;
+    }
+    .infor_store h4{
+        font-family: var(--font-family);
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .infor_store h4 span{
+        font-weight: 300;
+    }
+    .Tilte_contact h1{
+        font-family: var(--font-family);
+        font-size: 34px;
+        font-weight: 600;
+    }
+    .Tilte_contact p{
+        font-family: var(--font-family);
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .full_nameAndPhone_number,.SubjectAndemai_ldress{
+        flex-direction: column;
+    }
+    .Group_input .input{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .full_nameAndPhone_number{
+        margin: 0;
+    }
+    .Group_input .your_Review{
+        margin-top: 0;
+    }
+    .SubjectAndemai_ldress{
+        margin-bottom: 15px;
+    }
+    .map .adress{
+        width: 90%;
+    }
+    .map{
+        height: 400px;
+        margin-top: 40px;
+    }
+}
+.breadcrumb a{
+    text-decoration: none;
+    font-family: var(--font-family);
+    color: #272829;
+}

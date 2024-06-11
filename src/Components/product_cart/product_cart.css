@@ -1,0 +1,81 @@
+.product_cart img{
+    width: 70px;
+    height: 100px;
+    border-radius: 8px;
+    margin-right: 30px;
+}
+.product_cart{
+    display: flex;
+    border-top: 1px solid #E2E8EE;
+    border-bottom: 1px solid #E2E8EE;
+    padding: 20px 0;
+}
+.Addnumber{
+    display: flex;
+    background: rgb(241, 239, 239);
+    padding: 6px 12px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    width: 90px;
+    margin-right: 20px;
+}
+.Addnumber button{
+    background: none;
+    outline: none;
+    border: none;
+
+}
+.Addnumber button i{
+    font-size: 14px;
+}
+.Addnumber .number{
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 400;
+}
+.Addnumberproduct{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.group_cost{
+    display: flex;
+    align-items: center;
+}
+.group_cost .cost{
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 800;
+}
+.name_productAnd h4{
+    font-size: 16px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    color: #213549;
+    margin-bottom: 5px;
+}
+.name_productAnd p{
+    font-size: 14px;
+    font-family: var(--font-family);
+    font-weight: 300;
+    color: #718497;
+}
+.name_productAnd{
+    margin-bottom: 15px;
+}
+.Addnumberproduct .deleted{
+    background: none;
+    border: none;
+}
+.Addnumberproduct .deleted i{
+    color: #bdc9d4;
+}
+.Addnumberproduct .deleted:hover i{
+    color: #213549;
+    transition: 0.2s;
+}
+.name_product_Addnumberproduct{
+    width: 100%;
+}

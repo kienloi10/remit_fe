@@ -1,0 +1,6 @@
+.offcanvas.offcanvas-start.fade.show{
+    width: 280px;
+}
+.offcanvas.offcanvas-start.fade.show .filter{
+    display: block;
+}

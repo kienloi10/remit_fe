@@ -1,0 +1,25 @@
+.blog_card img{
+    border-radius: 9px;
+    width: 100%;
+}
+.blog_card{
+   
+    padding: 15px;
+}
+.blog_card .content{
+    text-align: center;
+    margin-top: 20px;
+}
+.blog_card .content p{
+    font-family: var(--font-family);
+    color: #5A6D80;
+    font-size: 16px;
+    font-weight: 300;
+   margin-bottom: 4px;
+}
+.blog_card .content h4{
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+}

@@ -1,0 +1,24 @@
+.Customer_reviews_card p{
+    margin-top: 10px;
+    font-family: var(--font-family);
+    font-size: 16px;
+}
+.infor_Customer p{
+    margin: 0;
+    font-family: var(--font-family);
+    font-size: 16px;
+    color: #718497;
+}
+.nameAndstart .name_user{
+    color: #213549 !important;
+    font-weight: bold;
+}
+.Customer_reviews_card{
+    padding: 30px 0px;
+    border-bottom: 1px solid #E2E8EE;
+    
+}
+.nameAndstart .start{
+    font-size: 12px;
+    margin-top: 2px;
+}

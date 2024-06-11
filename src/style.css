@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --fontsize-infor:14px;
+
+    --font-regular:400;
+    --font-semiblod:600;
+    --font-family:"Readex Pro", sans-serif;
+    --color-main:red;
+    --fontsize-body1:16px;
+    
+
+}
+
+

@@ -1,0 +1,614 @@
+.body {
+    margin-top: 113px;
+}
+
+.row .col-3 {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.row .box1.col-3 {
+    padding-left: 0 !important;
+}
+
+.row .box4.col-3 {
+    padding-right: 0 !important;
+}
+
+.banner {
+    background-color: #F2F7FB;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.banner .container {
+    display: flex;
+    justify-content: space-between;
+    height: 508px;
+
+    align-items: center;
+}
+
+.banner .container img {
+    position: absolute;
+    width: 791px;
+    left: 54%;
+
+}
+
+.banner .container .content_banner .tilte {
+    font-family: var(--font-family);
+    font-size: 54px;
+    font-weight: bold;
+    color: #1D1E20;
+    line-height: 64px;
+    margin-bottom: 16px;
+}
+
+.banner .container .content_banner .sub_tilte {
+    font-family: var(--font-family);
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.banner .container .content_banner .body_text {
+    font-family: var(--font-family);
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.banner .container .content_banner .btn {
+    margin-top: 20px;
+    border-radius: 12px;
+    background-color: #2F70B3;
+    outline: none;
+    border: none;
+    height: 44px;
+    width: 140px;
+    font-family: var(--font-family);
+    font-size: 16px;
+    box-shadow: rgba(47, 112, 179, 0.2) 0px 7px 29px 0px !important;
+}
+
+
+.banner .container .content_banner .btn:hover {
+    background-color: #272829 !important;
+}
+
+.sub_banner .container .banner1,
+.sub_banner .container .banner2 {
+    background-color: #F2F7FB;
+}
+
+.sub_banner .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub_banner .container .banner1 {
+    background-image: url(../../Img/banner1.png);
+    background-repeat: no-repeat;
+    padding: 42px;
+    padding-left: 50px;
+    padding-right: 142px;
+    background-position: right bottom;
+    background-size: 250px;
+    border-radius: 10px;
+    height: auto;
+    width: 100%;
+    margin-right: 15px;
+}
+
+.sub_banner .container .banner2 {
+    background-image: url(../../Img/banner2.png);
+    background-repeat: no-repeat;
+    padding: 42px;
+    padding-left: 50px;
+    padding-right: 142px;
+    background-position: right bottom;
+    background-size: 200px;
+    border-radius: 10px;
+    height: auto;
+    width: 100%;
+    margin-left: 15px;
+}
+
+.sub_banner {
+    margin-bottom: 100px;
+}
+
+.sub_banner .container .banner1 h3,
+.sub_banner .container .banner2 h3 {
+    font-size: 36px;
+    font-family: var(--font-family);
+    color: #272829;
+    font-weight: 600;
+}
+
+.sub_banner .container .banner1 p,
+.sub_banner .container .banner2 p {
+    font-size: 16px;
+    font-family: var(--font-family);
+    color: #5A6D80;
+    font-weight: 300;
+}
+
+.sub_banner .container .banner1 .btn,
+.sub_banner .container .banner2 .btn {
+    background-color: #2F70B3;
+    border: none;
+    border-radius: 12px;
+    margin-top: 10px;
+    font-family: var(--font-family);
+    height: 44px;
+    width: 120px;
+}
+
+.sub_banner .container .banner1 .btn:active,
+.sub_banner .container .banner2 .btn:active {
+    background-color: #272829 !important;
+}
+
+.sub_banner .container .banner1 .btn:hover,
+.sub_banner .container .banner2 .btn:hover {
+    background-color: #272829 !important;
+}
+
+.react-multiple-carousel__arrow {
+    background-color: #EDF3F9 !important;
+    transform: translateY(-95px);
+    z-index: 0 !important;
+
+
+}
+
+.react-multiple-carousel__arrow::before {
+    color: #1D1E20 !important;
+}
+
+.New_arrival_products .container {
+    position: relative;
+}
+
+.carousel-button-group .one {
+    background-color: #1D1E20 !important;
+}
+
+.react-multiple-carousel__arrow--right {
+    /* right: calc(17% + 1px) !important; */
+    display: block !important;
+}
+
+.react-multiple-carousel__arrow--left {
+    left: calc(-1% + 1px) !important;
+    display: block !important;
+}
+
+.Discover_our_featured_products h1 {
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 36px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.react-multi-carousel-list {
+    position: relative !important;
+}
+
+.banner_body .container {
+    background-color: #FFF5F0;
+    background-image: url(../../Img/body_banner.png);
+    background-repeat: no-repeat;
+    background-size: 1200px;
+    background-position: center;
+    border-radius: 10px;
+    padding: 95px 290px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.coutdown {
+    display: flex;
+    justify-content: space-between;
+    width: 420px;
+    margin: 0 auto;
+}
+
+.coutdown .number {
+    background-color: #FFEDE4;
+    font-family: var(--font-family);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.coutdown .number h3 {
+    font-family: var(--font-family);
+    font-size: 36px;
+    margin: 0;
+}
+
+.banner_body h1 {
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 36px !important;
+    letter-spacing: -12;
+    font-weight: bold;
+    margin-bottom: 45px;
+}
+
+.phantram {
+    color: #FF7979;
+    font-family: var(--font-family);
+}
+
+.banner_body .btn {
+    margin-top: 36px;
+    background-color: #FFF5F0;
+    border-radius: 10px;
+    border: 2px solid #1D1E20;
+    color: #1D1E20;
+    padding: 8px 20px;
+    font-size: 16px;
+    font-family: var(--font-family);
+
+}
+
+.banner_body .btn:active {
+    background-color: #1D1E20;
+    color: #FFFF;
+}
+
+.banner_body .btn:hover {
+    background-color: #1D1E20;
+    color: #FFFF;
+}
+
+.banner_body p {
+    font-family: var(--font-family);
+    font-size: 16px;
+    margin-top: 10px;
+    color: #5A6D80;
+}
+
+.New_arrival_products .tag {
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.New_arrival_products .nav-item a {
+    text-decoration: none;
+    font-family: var(--font-family);
+    color: #5A6D80;
+    font-size: 16px;
+}
+
+.New_arrival_products .tag p {
+    font-family: var(--font-family);
+    font-size: 16px;
+    color: #5A6D80;
+
+}
+
+.New_arrival_products .title {
+    width: 100%;
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.New_arrival_products .products {
+    margin-top: 20px;
+}
+
+.New_arrival_products .col-xl-3.col-lg-4.col-md-6.col-12 {
+    margin-top: 30px;
+}
+
+.Clientloveus_welovethem .react-multiple-carousel__arrow {
+    transform: translateY(-12px);
+}
+
+.Clientloveus_welovethem h1 {
+    font-family: var(--font-family);
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+.New_arrival_products {
+    margin-bottom: 100px;
+}
+
+.Discoverdressingtipsfromourblog {
+    margin-top: 100px;
+}
+
+.Discoverdressingtipsfromourblog h1 {
+    font-family: var(--font-family);
+    font-size: 36px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.Clientloveus_welovethem {
+    margin-bottom: 100px;
+}
+
+.Discoverdressingtipsfromourblog .container {
+    text-align: center;
+}
+
+.Discoverdressingtipsfromourblog .btn {
+    background-color: #FFFF;
+    border: #1D1E20 2px solid;
+    color: #1D1E20;
+    font-family: var(--font-family);
+    margin-top: 30px;
+}
+
+.Discoverdressingtipsfromourblog .btn:hover {
+    background-color: #1D1E20;
+    color: #FFFF;
+}
+
+.Discoverdressingtipsfromourblog {
+    margin-bottom: 100px;
+}
+
+.Discover_our_featured_products .react-multi-carousel-dot-list {
+    display: none;
+}
+
+.Clientloveus_welovethem .react-multiple-carousel__arrow {
+    display: none !important;
+}
+
+.Clientloveus_welovethem .react-multi-carousel-dot-list {
+    transform: translateY(-7px);
+}
+
+.Clientloveus_welovethem .react-multi-carousel-list {
+    height: 320px;
+}
+
+@media only screen and (max-width: 400px) {
+    .banner .container {
+        display: inline-block;
+    }
+
+    .banner .container .content_banner .content {
+        text-align: center;
+    }
+
+    .banner .container .content_banner .content .sub_tilte {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+    .banner .container .content_banner .content .tilte {
+        font-size: 36px;
+        color: #143453;
+        line-height: 46px;
+
+    }
+
+    .banner .container .content_banner .content .body_text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .banner {
+        height: auto;
+        overflow: hidden;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .banner .container img {
+        position: sticky;
+        width: 400px;
+        left: 0;
+        margin-top: 20px;
+    }
+
+    .sub_banner .container {
+        display: inline-block !important;
+    }
+
+    .sub_banner .container .banner1 {
+
+        background-repeat: no-repeat;
+        padding: 30px;
+
+        background-position: right bottom;
+        background-size: 140px;
+        border-radius: 10px;
+        height: auto;
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+
+    .sub_banner .container .banner2 {
+
+        background-repeat: no-repeat;
+        padding: 30px;
+
+        background-position: right bottom;
+        background-size: 125px;
+        border-radius: 10px;
+        height: auto;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .sub_banner .container .banner2 h3,
+    .sub_banner .container .banner1 h3 {
+        font-size: 21px;
+        line-height: 31px;
+        width: 100%;
+    }
+
+    .sub_banner .container .banner2 p,
+    .sub_banner .container .banner1 p {
+        display: none;
+    }
+
+    .sub_banner {
+        margin-bottom: 50px;
+    }
+
+    .Discover_our_featured_products .container h1 {
+        text-align: center;
+        font-size: 34px !important;
+    }
+
+    .Discover_our_featured_products .container {
+        text-align: center;
+    }
+
+    .card img {
+        width: 130px !important;
+    }
+
+    .react-multi-carousel-item {
+        padding: 0 8px;
+
+    }
+
+    .react-multi-carousel-item .card-body {
+        text-align: start;
+        width: 140px !important;
+    }
+
+    .react-multi-carousel-item .card {
+        width: auto !important;
+
+    }
+
+    .react-multi-carousel-item .col-xl-3 {
+        width: auto !important;
+
+    }
+
+    .Discover_our_featured_products .react-multi-carousel-list {
+        justify-content: center;
+        text-align: center;
+
+
+    }
+
+    .Clientloveus_welovethem .react-multiple-carousel__arrow {
+        display: none !important;
+    }
+
+    .Clientloveus_welovethem .react-multi-carousel-list {
+        overflow: none !important;
+
+    }
+
+    .react-multi-carousel-list {
+        display: flex;
+        align-items: center;
+        overflow: inherit !important;
+
+        position: relative !important;
+    }
+
+    .react-multiple-carousel__arrow {
+        display: none !important;
+    }
+
+    .react-multi-carousel-item {
+        width: 100% !important;
+    }
+
+    .testimonial_card {
+        padding: 0px;
+    }
+
+    .Discover_our_featured_products .react-multi-carousel-dot-list {
+        display: flex !important;
+        transform: translateY(16px);
+    }
+
+    .react-multi-carousel-list .card h5 {
+        font-size: 15px;
+    }
+
+    .react-multi-carousel-list .card .card-text {
+        font-size: 14px !important;
+    }
+
+    .banner_body .container {
+        width: 100%;
+        padding: 30px 16px;
+    }
+
+    .coutdown {
+        display: flex;
+        justify-content: space-between;
+        width: 80px;
+        margin: 0 auto;
+        flex-direction: column;
+
+    }
+
+    .banner_body h1 {
+        margin-bottom: 30px;
+    }
+
+    .banner_body .container .btn.btn-secondary {
+        margin-top: 20px !important;
+    }
+
+    .testimonial_card .review {
+        font-size: 12px;
+    }
+    .testimonial_card{
+        margin-right: 0 !important;
+    }
+    .New_arrival_products .tag p {
+        font-family: var(--font-family);
+        font-size: 14px;
+        color: #5A6D80;
+        margin: 0;
+    }
+    .New_arrival_products .nav-item a{
+        font-size: 14px;
+    }
+    .New_arrival_products .tag{
+        align-items: center;
+        width: 280px;
+    }
+    .card .status {
+        background-color: #7FD49C;
+        width: auto;
+        height: auto;
+        border-radius: 8px;
+        text-align: center;
+        position: absolute;
+        margin-left: 4px;
+        margin-top: 4px;
+        font-family: var(--font-family);
+        font-size: 12px;
+        color: #FFFF;
+        text-transform: uppercase;
+        padding: 2px 4px;
+    }
+    .carousel-button-group.container{
+        display: none;}
+    }

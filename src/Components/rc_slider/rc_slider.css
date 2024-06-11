@@ -1,0 +1,45 @@
+.group_input{
+    display: flex;
+    margin-top: 18px;
+    align-items: center;
+}
+.group_input input{
+    width: 60px;
+    border: none;
+    outline: none;
+}
+.group_input .input{
+    border: 1px solid #D4DBE2;
+    padding: 6px 10px;
+    border-radius: 7px;
+}
+.rc-slider-step{
+    border-radius: 99px;
+    height: 5px;
+    background: #EDF4FB;
+    z-index: -1;
+    
+}
+.rc-slider-handle{
+    border: 1px solid #FFFF !important;
+    background: #213549;
+    opacity: 1;
+    z-index: 0 !important;
+}
+.rc-slider-handle:focus-visible{
+    box-shadow: none;
+}
+.rc-slider-handle:active{
+    box-shadow: none;
+}
+.rc-slider-track{
+    background-color: #213549;
+    position: absolute;
+   
+}
+.line_ngan{
+    width: 8px;
+    height: 1px;
+    background: #C2C9D0;
+    margin: 0 10px;
+}

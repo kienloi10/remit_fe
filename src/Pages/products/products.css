@@ -1,0 +1,241 @@
+.Breadcrumb {
+    margin-top: 144px;
+    height: auto;
+    margin-bottom: 0;
+}
+
+.banner_products {
+    background-image: url(../../Img/Banner_products_page.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 260px;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.banner_products img {
+    width: 580px;
+}
+
+.all_products .filter {
+    background-color: #FFFF;
+    height: auto;
+    width: 30%;
+    padding-right: 50px;
+}
+
+.all_products .products {
+    
+    height: auto;
+    width: 70%;
+}
+
+.all_products .container .filter_products {
+    display: flex;
+}
+
+.all_products .tilte_funtionTop {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px soild #EFF1F5 !important;
+    margin-bottom: 30px;
+    align-items: center;
+    box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+    padding: 10px 0px;
+}
+
+.tilte_With_dropdown .tilte {
+    display: flex;
+}
+
+.tilte_With_dropdown {
+    display: flex;
+}
+.Box .kind a{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #485B6F;
+    font-family: var(--font-family);
+    margin-bottom: 20px;
+    
+    
+}
+.Box .kind a h4{
+    font-size: 16px;
+    font-weight: 300;
+}
+.Box h3{
+    margin-bottom: 16px;
+    font-family: var(--font-family);
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.Box{
+    padding-bottom: 30px;
+    border-bottom: #dce4ec 1px solid;
+    margin-bottom: 30px;
+}
+.Box .kind a .kind_name{
+    
+    font-weight: 400;
+    color: #485B6F;
+}
+.Box .kind a:hover h4{
+    color: #213549;
+}
+.Box .button_size button{
+    text-align: center;
+    background: #FFFF;
+    border-radius: 7px;
+    width: 62px;
+    height: 36px;
+    border: 1px solid #D4DBE2;
+    margin-top: 10px;
+    margin-right: 10px;
+    outline: none;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+}
+.Box .button_size button:active{
+    border: 1px solid #213549;
+}
+.Box .checkbox label{
+    margin: 0 40px 0px 10px;
+    font-family: var(--font-family);
+    cursor: pointer;
+    width: 50px;
+}
+.Box .checkbox .group_check{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+.Box .group_check input[type="checkbox"]{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #D4DBE2 !important;
+    appearance: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.Box .group_check input[type="checkbox"]:checked{
+    background-color: #213549;
+    background-image: url(../../Img/Check_box.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius:4px !important;
+    border: 1px solid #213549 !important;
+}
+.tilte h1{
+    font-family: var(--font-family);
+    font-size: 30px;
+    margin: 0;
+    height: 30px;
+}
+.tilte h3{
+    font-family: var(--font-family);
+    font-size: 16px;
+    margin: 0;
+    height: 16px;
+    font-weight: 300;
+    color: #A2ABB5;
+    margin-left: 10px;
+}
+.tilte_funtionTop{
+    padding: 30px 0 !important;
+}
+.tilte_With_dropdown .tilte{
+    align-items: end;
+    margin-right: 160px;
+}
+.tilte_With_dropdown .dropdown{
+    height: 20px;
+    top:10px;
+    font-family: var(--font-family);
+    font-weight: 300;
+}
+.tilte_With_dropdown{
+    align-items: center;
+}
+.setting_colum button{
+    background-color: #ffff;
+    border: none;
+}
+.setting_colum{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50px;
+}
+.Box.brand{
+    border-bottom: none;
+}
+.filter_products .btn_filter{
+    display: none;
+}
+@media only screen and (max-width: 400px) {
+    .filter{
+        display: none;
+    }
+    .tilte h1{
+        font-size: 18px;
+    }
+    .tilte_With_dropdown .tilte{
+        width: 200px;
+        display: flex;
+        align-items: center;
+        margin-right:50px ;
+    }
+    .tilte_With_dropdown{
+        width: 300px;
+        flex-direction:column;
+        align-items: start;
+        height: auto;
+    }
+    .tilte_funtionTop{
+        display: flex;
+    }
+    .dropdown .dropdown-toggle{
+        font-size: 14px;
+    }
+    .filter_products{
+        flex-direction: column;
+    }
+    .filter_products .btn_filter{
+        display: block;
+        text-align: center;
+        background: #213549;
+        border-radius: 10px;
+        border: none;
+        padding: 8px 0px;
+        margin-bottom: 30px;
+        color: #ffff;
+        font-family: var(--font-family);
+    }
+    .filter_products .btn_filter i{
+        margin-right: 5px;
+    }
+    .all_products .products {
+        height: auto;
+        width: 100%;
+    }
+    .banner_products {
+        background-image: url(../../Img/Banner_products_page.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 200px;
+        text-align: center;
+        padding: 80px 0;
+        background-position: center;
+        
+    }
+    .banner_products img{
+        width: 320px;
+    }
+}
+
+
+
